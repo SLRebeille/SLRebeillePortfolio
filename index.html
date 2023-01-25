@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>SLRebeille Portfolio</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/SLR/</h1>
+                    <nav id="nav" class="responsive">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">LENGUAJES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/slrebeille/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SLRebeille"><i class="fa-brands fa-github-alt"></i></a>
+                        <a href="https://www.instagram.com/beatersatanic/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Santiago L Rebeille</span>, Web Developer</h2>
+                <p class="descripcion">Bienvenidos a mi protafolio, aquí se podrán encontrar con los proyectos que voy realizando,mis redes sociales 
+                    y mi repositorio de github, así como podrán descargar mi CV y ver los medios de contactoque tengo disponibles. Muchas Gracias.</p>
+                    <a href="#portafolio">Ir a Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./resources/Diseño sin título.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion" href="">Sobre Mi</p>
+            <h2>Hola, soy <span>Santiago L Rebeille</span></h2>
+            <h3>Web Developer</h3>
+            <p>Soy un Front-End Developer en proceso, actualmente estoy cursando esta carrera en el insituto CoderHouse.
+                soy una persona proactiva y que siempre busca ayudar.</p>
+                <p>Actualmente estoy buscando un ambiente de trabajo inspirador, que mepermita desarrollarme con una buena formación en el área IT.</p>
+                <a download="CVSLRebeille" href="./resources/CVSLRebeille.pdf">Descargar CV</a>
+        </div>
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">LENGUAJES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-sharp fa-solid fa-laptop-code"></i></span>
+                <h4>HTML 5</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li><i class="fa-brands fa-html5"></i></li>
+                    <li>SEO</li>
+                </ul>
+                <p>Me especializo en HTML 5 y lo practico a diario, estoy certificado y titulado en este lenguaje de marcado.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-sharp fa-solid fa-code"></i></i></span>
+                <h4>CSS 3</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Flex</li>
+                    <li><i class="fa-brands fa-css3-alt"></i></li>
+                    <li>Diseño</li>
+                </ul>
+                <p>Me especializo en CSS 3 y lo practico a diario, estoy titulado y certificado en este lenguaje.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Java Script</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Prog</li>
+                    <li><i class="fa-brands fa-square-js"></i></li>
+                    <li>Objects</li>
+                </ul>
+                <p>Estoy estudiando Js para aplicarlo a la perfección.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-sharp fa-solid fa-code-compare"></i></span>
+                <h4>SASS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li><i class="fa-brands fa-sass"></i></li>
+                    <li>SEO</li>
+                </ul>
+                <p>Me especializo en HTML 5 y lo practico a diario, estoy certificado y titulado en este lenguaje de marcado.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-codepen"></i></span>
+                <h4>Bootstrap</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Flex</li>
+                    <li><i class="fa-brands fa-bootstrap"></i></li>
+                    <li>Diseño</li>
+                </ul>
+                <p>Me especializo en CSS 3 y lo practico a diario, estoy titulado y certificado en este lenguaje.</p>
+            </div>
+        </div>
+    </section>
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>HTML & CSS</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Bootstrap</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bootstrap" class="barra-progreso3"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>SASS</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="sass" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+    <section id="portafolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+    <divl class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/Muggul-Shoes/index.html"><img src="./resources/Proyecto1.png" alt=""></a>
+            <div class="info">
+                <h4>MuggulShoes</h4>
+                <p>Mi primer página Web</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/PlanCards/"><img src="./resources/Proyecto2.png" alt=""></a>
+            <div class="info">
+                <h4>Plan Cards</h4>
+                <p>Cartas de planes de pago</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/Form/"><img src="./resources/Proyecto3.png" alt=""></a>
+            <div class="info">
+                <h4>Formulario doble</h4>
+                <p>Un formulario doble que gira</p>
+            </div>
+        </div>
+    </divl>
+    <divl class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/DoubleForm/"><img src="./resources/Proyecto4.png" alt=""></a>
+            <div class="info">
+                <h4>Formulario Doble</h4>
+                <p>Un formulario doble que se traslada</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/MovieCard/"><img src="./resources/Proyecto5.png" alt=""></a>
+            <div class="info">
+                <h4>Carta de película</h4>
+                <p>Una carta con los datos de una película</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/Characters/"><img src="./resources/Proyecto6.png" alt=""></a>
+            <div class="info">
+                <h4>Personajes</h4>
+                <p>Dos personajes que se superponen</p>
+            </div>
+        </div>
+    </divl>
+    <divl class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/CharacterCard/"><img src="./resources/Proyecto7.png" alt=""></a>
+            <div class="info">
+                <h4>Carta Personaje</h4>
+                <p>Carta de un personaje con su descripción</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/ClimaPAG/"><img src="./resources/Proyecto8.png" alt=""></a>
+            <div class="info">
+                <h4>Clima App</h4>
+                <p>Una Web simple que te dice el clima</p>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://slrebeille.github.io/PokemonCards/Index.html"><img src="./resources/Proyecto9.png" alt=""></a>
+            <div class="info">
+                <h4>Pokemon Cards</h4>
+                <p>Cartas de pokémons con sus ataques y descripción</p>
+            </div>
+        </div>
+    </divl>
+    </section>
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTO</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-phone"></i></span>
+                <h4>Teléfono</h4>
+                <hr>
+                <p>Número de teléfono de línea: 011 4-753-3975</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-whatsapp"></i></span>
+                <h4>Whatsapp</h4>
+                <hr>
+                <p><a href="https://web.whatsapp.com">N° de teléfono Whatsapp 11-5806-4050</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                <h4>Mail</h4>
+                <hr>
+                <p><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJlJWKwZdFCBrJJnnrqwsSZBZbPHtJkQkjdgbsXBNSlKLRBBMDtKHplgqhRhvWqvCDCtzLq">Mi mail personal de contacto: slrebeille@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-github"></i></span>
+                <h4>Git Hub</h4>
+                <hr>
+                <p><a href="https://github.com/SLRebeille">Mi repositorio de Git: https://github.com/SLRebeille</a></p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-linkedin"></i></span>
+                <h4>Linkedin</h4>
+                <hr>
+                <p><a href="https://www.linkedin.com/in/slrebeille/">Mi Perfil de Linkedin: https://www.linkedin.com/in/slrebeille/</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados SLRebeille</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
