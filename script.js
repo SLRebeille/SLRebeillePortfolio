@@ -25,12 +25,12 @@ window.onscroll = function(){
 };
 
 function efectoHabilidades(){
-    var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if (distancia_skills => 300) {
-        document.getElementById("html").classList.add("barra-progreso1");
-        document.getElementById("js").classList.add("barra-progreso2");
-        document.getElementById("bootstrap").classList.add("barra-progreso3");
-        document.getElementById("sass").classList.add("barra-progreso4");
+    var porcentaje = document.getElementById("porcentaje");
+    var distancia_porcentaje = window.innerHeight - porcentaje.getBoundingClientRect().top;
+    if (distancia_porcentaje >= 300) {
+        document.getElementById("1").classList.add("barra-progreso1");
+        document.getElementById("2").classList.add("barra-progreso2");
+        document.getElementById("3").classList.add("barra-progreso3");
+        document.getElementById("4").classList.add("barra-progreso4");
     }
 }
